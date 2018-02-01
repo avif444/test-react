@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/avif444/test-react/issues"
   },
-  "homepage": "https://github.com/avif444/test-react#readme"
+  "homepage": "https://github.com/avif444/test-react#readme",
+  "devDependencies": {
+    "semantic-release": "^12.4.1"
+  }
 }
