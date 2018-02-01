@@ -1,0 +1,19 @@
+{
+  "name": "test-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avif444/test-react.git"
+  },
+  "author": "avif muhamad taufiq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avif444/test-react/issues"
+  },
+  "homepage": "https://github.com/avif444/test-react#readme"
+}
