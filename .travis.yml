@@ -9,7 +9,7 @@ node_js:
 before_install:
   - npm install -g travis-deploy-once
 script: 
-  - npm test:single
+  - npm run test:single
 after_success:
   - npm run semantic-release
 branches:
