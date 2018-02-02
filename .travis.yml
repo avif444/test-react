@@ -6,8 +6,9 @@ notifications:
   email: false
 node_js:
   - '9'
-after_success:
+before_install:
   - npm install -g travis-deploy-once
+after_success:
   - npm run semantic-release
 branches:
   except:
