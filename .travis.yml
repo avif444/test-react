@@ -8,6 +8,8 @@ node_js:
   - '9'
 before_install:
   - npm install -g travis-deploy-once
+script: 
+  - npm test:single
 after_success:
   - npm run semantic-release
 branches:
