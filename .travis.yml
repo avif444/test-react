@@ -13,7 +13,7 @@ before_script:
   - npm install -g mocha
   - npm install -g chai
 script: 
-  - npm run test:single
+  - npm run test
 after_success:
   - npm run semantic-release
 branches:
