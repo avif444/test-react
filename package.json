@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/avif444/test-react#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "mocha": "^5.0.0",
@@ -31,5 +30,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
   }
 }
