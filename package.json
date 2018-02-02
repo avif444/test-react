@@ -22,6 +22,23 @@
     "travis-deploy-once": "^4.3.3"
   },
   "release": {
-    "branch": "next"
+    "verifyConditions": [
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "verify-conditions.sh"
+      },
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "analyzeCommits": "custom-plugin",
+    "verifyRelease": [
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "verify-release.sh"
+      },
+    ],
+    "generateNotes": "./build/my-plugin.js",
+    "githubUrl": "https://my-ghe.com",
+    "githubApiPathPrefix": "/api-prefix"
   }
 }
