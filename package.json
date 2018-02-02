@@ -35,7 +35,7 @@
       {
         "path": "@semantic-release/exec",
         "cmd": "verify-release.sh"
-      },
+      }
     ],
     "generateNotes": "./build/my-plugin.js",
     "githubUrl": "https://my-ghe.com",
