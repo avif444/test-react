@@ -6,6 +6,9 @@ notifications:
   email: false
 node_js:
   - '9'
+  - '8'
+  - '7'
+  - '6'
 before_install:
   - npm i -g npm@^3.0.0
 before_script: 
@@ -13,7 +16,7 @@ before_script:
   - npm install -g mocha
   - npm install -g chai
 script: 
-  - npm run test
+  - npm run test:single
 after_success:
   - npm run semantic-release
 branches:
