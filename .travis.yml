@@ -13,7 +13,7 @@ before_install:
   - npm i -g npm@^3.0.0
 before_script: 
   - npm prune
-  - npm install -g mocha
+  - npm install -g mocha@^3.0.0
   - npm install -g chai
 script: 
   - npm run test:single
